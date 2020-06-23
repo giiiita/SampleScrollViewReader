@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1A3A9524A20ACF00FC7F05 /* SampleScrollViewReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3A9424A20ACF00FC7F05 /* SampleScrollViewReaderApp.swift */; };
+		3F1A3A9724A20ACF00FC7F05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3A9624A20ACF00FC7F05 /* ContentView.swift */; };
+		3F1A3A9924A20AD200FC7F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A3A9824A20AD200FC7F05 /* Assets.xcassets */; };
+		3F1A3A9C24A20AD200FC7F05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A3A9B24A20AD200FC7F05 /* Preview Assets.xcassets */; };
+		3F1A3AA724A20AD200FC7F05 /* SampleScrollViewReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3AA624A20AD200FC7F05 /* SampleScrollViewReaderTests.swift */; };
+		3F1A3AB224A20AD200FC7F05 /* SampleScrollViewReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3AB124A20AD200FC7F05 /* SampleScrollViewReaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F1A3AA324A20AD200FC7F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1A3A8924A20ACF00FC7F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1A3A9024A20ACF00FC7F05;
+			remoteInfo = SampleScrollViewReader;
+		};
+		3F1A3AAE24A20AD200FC7F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1A3A8924A20ACF00FC7F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1A3A9024A20ACF00FC7F05;
+			remoteInfo = SampleScrollViewReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F1A3A9124A20ACF00FC7F05 /* SampleScrollViewReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleScrollViewReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1A3A9424A20ACF00FC7F05 /* SampleScrollViewReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleScrollViewReaderApp.swift; sourceTree = "<group>"; };
+		3F1A3A9624A20ACF00FC7F05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F1A3A9824A20AD200FC7F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F1A3A9B24A20AD200FC7F05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F1A3A9D24A20AD200FC7F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1A3AA224A20AD200FC7F05 /* SampleScrollViewReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleScrollViewReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1A3AA624A20AD200FC7F05 /* SampleScrollViewReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleScrollViewReaderTests.swift; sourceTree = "<group>"; };
+		3F1A3AA824A20AD200FC7F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1A3AAD24A20AD200FC7F05 /* SampleScrollViewReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleScrollViewReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1A3AB124A20AD200FC7F05 /* SampleScrollViewReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleScrollViewReaderUITests.swift; sourceTree = "<group>"; };
+		3F1A3AB324A20AD200FC7F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1A3A8E24A20ACF00FC7F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1A3A9F24A20AD200FC7F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1A3AAA24A20AD200FC7F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1A3A8824A20ACF00FC7F05 = {
+			isa = PBXGroup;
+			children = (
+				3F1A3A9324A20ACF00FC7F05 /* SampleScrollViewReader */,
+				3F1A3AA524A20AD200FC7F05 /* SampleScrollViewReaderTests */,
+				3F1A3AB024A20AD200FC7F05 /* SampleScrollViewReaderUITests */,
+				3F1A3A9224A20ACF00FC7F05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1A3A9224A20ACF00FC7F05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A3A9124A20ACF00FC7F05 /* SampleScrollViewReader.app */,
+				3F1A3AA224A20AD200FC7F05 /* SampleScrollViewReaderTests.xctest */,
+				3F1A3AAD24A20AD200FC7F05 /* SampleScrollViewReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1A3A9324A20ACF00FC7F05 /* SampleScrollViewReader */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A3A9424A20ACF00FC7F05 /* SampleScrollViewReaderApp.swift */,
+				3F1A3A9624A20ACF00FC7F05 /* ContentView.swift */,
+				3F1A3A9824A20AD200FC7F05 /* Assets.xcassets */,
+				3F1A3A9D24A20AD200FC7F05 /* Info.plist */,
+				3F1A3A9A24A20AD200FC7F05 /* Preview Content */,
+			);
+			path = SampleScrollViewReader;
+			sourceTree = "<group>";
+		};
+		3F1A3A9A24A20AD200FC7F05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A3A9B24A20AD200FC7F05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F1A3AA524A20AD200FC7F05 /* SampleScrollViewReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A3AA624A20AD200FC7F05 /* SampleScrollViewReaderTests.swift */,
+				3F1A3AA824A20AD200FC7F05 /* Info.plist */,
+			);
+			path = SampleScrollViewReaderTests;
+			sourceTree = "<group>";
+		};
+		3F1A3AB024A20AD200FC7F05 /* SampleScrollViewReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A3AB124A20AD200FC7F05 /* SampleScrollViewReaderUITests.swift */,
+				3F1A3AB324A20AD200FC7F05 /* Info.plist */,
+			);
+			path = SampleScrollViewReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1A3A9024A20ACF00FC7F05 /* SampleScrollViewReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1A3AB624A20AD200FC7F05 /* Build configuration list for PBXNativeTarget "SampleScrollViewReader" */;
+			buildPhases = (
+				3F1A3A8D24A20ACF00FC7F05 /* Sources */,
+				3F1A3A8E24A20ACF00FC7F05 /* Frameworks */,
+				3F1A3A8F24A20ACF00FC7F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleScrollViewReader;
+			productName = SampleScrollViewReader;
+			productReference = 3F1A3A9124A20ACF00FC7F05 /* SampleScrollViewReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F1A3AA124A20AD200FC7F05 /* SampleScrollViewReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1A3AB924A20AD200FC7F05 /* Build configuration list for PBXNativeTarget "SampleScrollViewReaderTests" */;
+			buildPhases = (
+				3F1A3A9E24A20AD200FC7F05 /* Sources */,
+				3F1A3A9F24A20AD200FC7F05 /* Frameworks */,
+				3F1A3AA024A20AD200FC7F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1A3AA424A20AD200FC7F05 /* PBXTargetDependency */,
+			);
+			name = SampleScrollViewReaderTests;
+			productName = SampleScrollViewReaderTests;
+			productReference = 3F1A3AA224A20AD200FC7F05 /* SampleScrollViewReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F1A3AAC24A20AD200FC7F05 /* SampleScrollViewReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1A3ABC24A20AD200FC7F05 /* Build configuration list for PBXNativeTarget "SampleScrollViewReaderUITests" */;
+			buildPhases = (
+				3F1A3AA924A20AD200FC7F05 /* Sources */,
+				3F1A3AAA24A20AD200FC7F05 /* Frameworks */,
+				3F1A3AAB24A20AD200FC7F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1A3AAF24A20AD200FC7F05 /* PBXTargetDependency */,
+			);
+			name = SampleScrollViewReaderUITests;
+			productName = SampleScrollViewReaderUITests;
+			productReference = 3F1A3AAD24A20AD200FC7F05 /* SampleScrollViewReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F1A3A8924A20ACF00FC7F05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3F1A3A9024A20ACF00FC7F05 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					3F1A3AA124A20AD200FC7F05 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3F1A3A9024A20ACF00FC7F05;
+					};
+					3F1A3AAC24A20AD200FC7F05 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3F1A3A9024A20ACF00FC7F05;
+					};
+				};
+			};
+			buildConfigurationList = 3F1A3A8C24A20ACF00FC7F05 /* Build configuration list for PBXProject "SampleScrollViewReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F1A3A8824A20ACF00FC7F05;
+			productRefGroup = 3F1A3A9224A20ACF00FC7F05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1A3A9024A20ACF00FC7F05 /* SampleScrollViewReader */,
+				3F1A3AA124A20AD200FC7F05 /* SampleScrollViewReaderTests */,
+				3F1A3AAC24A20AD200FC7F05 /* SampleScrollViewReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1A3A8F24A20ACF00FC7F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1A3A9C24A20AD200FC7F05 /* Preview Assets.xcassets in Resources */,
+				3F1A3A9924A20AD200FC7F05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1A3AA024A20AD200FC7F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1A3AAB24A20AD200FC7F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F1A3A8D24A20ACF00FC7F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1A3A9724A20ACF00FC7F05 /* ContentView.swift in Sources */,
+				3F1A3A9524A20ACF00FC7F05 /* SampleScrollViewReaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1A3A9E24A20AD200FC7F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1A3AA724A20AD200FC7F05 /* SampleScrollViewReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1A3AA924A20AD200FC7F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1A3AB224A20AD200FC7F05 /* SampleScrollViewReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F1A3AA424A20AD200FC7F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1A3A9024A20ACF00FC7F05 /* SampleScrollViewReader */;
+			targetProxy = 3F1A3AA324A20AD200FC7F05 /* PBXContainerItemProxy */;
+		};
+		3F1A3AAF24A20AD200FC7F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1A3A9024A20ACF00FC7F05 /* SampleScrollViewReader */;
+			targetProxy = 3F1A3AAE24A20AD200FC7F05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F1A3AB424A20AD200FC7F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F1A3AB524A20AD200FC7F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F1A3AB724A20AD200FC7F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SampleScrollViewReader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SampleScrollViewReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = giiiita.SampleScrollViewReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F1A3AB824A20AD200FC7F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SampleScrollViewReader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SampleScrollViewReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = giiiita.SampleScrollViewReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F1A3ABA24A20AD200FC7F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SampleScrollViewReaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = giiiita.SampleScrollViewReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleScrollViewReader.app/SampleScrollViewReader";
+			};
+			name = Debug;
+		};
+		3F1A3ABB24A20AD200FC7F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SampleScrollViewReaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = giiiita.SampleScrollViewReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleScrollViewReader.app/SampleScrollViewReader";
+			};
+			name = Release;
+		};
+		3F1A3ABD24A20AD200FC7F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SampleScrollViewReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = giiiita.SampleScrollViewReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SampleScrollViewReader;
+			};
+			name = Debug;
+		};
+		3F1A3ABE24A20AD200FC7F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SampleScrollViewReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = giiiita.SampleScrollViewReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SampleScrollViewReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F1A3A8C24A20ACF00FC7F05 /* Build configuration list for PBXProject "SampleScrollViewReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1A3AB424A20AD200FC7F05 /* Debug */,
+				3F1A3AB524A20AD200FC7F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1A3AB624A20AD200FC7F05 /* Build configuration list for PBXNativeTarget "SampleScrollViewReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1A3AB724A20AD200FC7F05 /* Debug */,
+				3F1A3AB824A20AD200FC7F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1A3AB924A20AD200FC7F05 /* Build configuration list for PBXNativeTarget "SampleScrollViewReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1A3ABA24A20AD200FC7F05 /* Debug */,
+				3F1A3ABB24A20AD200FC7F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1A3ABC24A20AD200FC7F05 /* Build configuration list for PBXNativeTarget "SampleScrollViewReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1A3ABD24A20AD200FC7F05 /* Debug */,
+				3F1A3ABE24A20AD200FC7F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F1A3A8924A20ACF00FC7F05 /* Project object */;
+}
